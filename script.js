@@ -28,8 +28,8 @@ function loadSong(song) {
         title.text('یوکللی');
     }
 
-    cover.attr('src',`../images/${song}.jpg`);
-    audio.src = `../music/${song}.mp3`;
+    cover.attr('src',`${song}.jpg`);
+    audio.src = `${song}.mp3`;
 }
 
 function playSong() {
